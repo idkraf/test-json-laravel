@@ -8,12 +8,14 @@ php artisan serve
 * Step 2: Controllers
 ```
 php artisan make:controller UserController
-```
 copy and paste user.json and dealer.json to folder controllers
+```
 
 * Step 3: Routes
 Define routes in routes/api.php for CRUD operations.
+```
 Route::get('/', 'App\Http\Controllers\UserController@index');
+```
 
 * Step 4: Json Views
 Using chrome install extension JSON Viewer
